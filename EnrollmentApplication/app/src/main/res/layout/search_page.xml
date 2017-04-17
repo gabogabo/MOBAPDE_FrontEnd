@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="@color/mintCream"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:background="@drawable/dlsu"
+            android:id="@+id/home_button"
+            android:layout_marginStart="40dp"
+            />
+
+        <ImageView
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:background="@drawable/ic_action_name"
+            android:id="@+id/search_button"
+            android:layout_marginStart="30dp"
+            />
+        <ImageView
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:background="@drawable/enlist_icon"
+            android:id="@+id/enlist_button"
+            android:layout_marginStart="40dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="20dp"
+        android:layout_width="match_parent"
+        android:background="@color/mintCream"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Home"
+            android:layout_marginStart="55dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:layout_marginStart="65dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Courses"
+            android:layout_marginStart="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:background="@drawable/edit_textbg"
+                android:hint="Course Name"
+                android:inputType="text"
+                android:layout_marginStart="70dp"
+                />
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_action_name"
+                android:id="@+id/search_class"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/class_list"
+        android:layout_marginTop="10dp"
+        android:id="@+id/class_list"/>
+
+
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="@string/logoutBtn"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:background="@color/mintCream"
+        />
+
+</LinearLayout>

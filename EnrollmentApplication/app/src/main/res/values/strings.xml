@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Enrollment Application</string>
+    <string name="submit_button">Log In</string>
+    <string name="front_title">MLS</string>
+    <string name="name_hint">ID Number</string>
+    <string name="pwd_hint">Password</string>
+    <string name="Home">Home</string>
+    <string name="search">Search</string>
+    <string name="Courses">Courses Enlisted</string>
+    <string name="cSched">Class Schedule</string>
+    <string name="logoutBtn">Log Out</string>
+    <string name="home_name">HomePage</string>
+    <string name="enlist_course">Enlist Course</string>
+    <string name="drop_course">Drop Course</string>
+    <string name="enlist">Enlist</string>
+    <string name="drop">Drop</string>
+    <string name="cancel">Cancel</string>
+    <string name="course_name">Course Name</string>
+    <string name="schedule">Schedule</string>
+    <string name="room">Room</string>
+    <string name="prof">Instructor</string>
+</resources>
